@@ -1,0 +1,11 @@
+import tkinter as tk
+window = tk.Tk()
+window.title("Моя визитка")
+window.geometry("350x250")
+label1 = tk.Label(window, text="Мистер Никто", font=("Arial", 20))
+label1.pack(pady=10)
+label2 = tk.Label(window, text="Студент", font=("Arial", 14))
+label2.pack(pady=10)
+label3 = tk.Label(window, text="Москва", font=("Arial", 14))
+label3.pack(pady=10)
+window.mainloop()
